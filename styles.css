@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.trainer {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+th img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.complete-task {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.complete-task img {
+  width: 33px;
+  height: 33px;
+}
